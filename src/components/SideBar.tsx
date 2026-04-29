@@ -7,7 +7,7 @@ function SideBar() {
         <div className={styles.show}>
           <span>📚</span>
         </div>
-        <div>
+        <div className={styles.bibliotecas}>
           <p>Biblioteca Digital</p>
           <span>MEC + Gutenberg</span>
         </div>
@@ -15,12 +15,12 @@ function SideBar() {
 
       <nav className={styles.nav}>
         <p className={styles.label}>Categorias</p>
-        <a className={styles.item}>Terror</a>
-        <a className={styles.item}>Mistério</a>
-        <a className={styles.item}>Suspense</a>
-        <a className={styles.item}>Drama</a>
-        <a className={styles.item}>Romance</a>
-        <a className={styles.item}>Nacional</a>
+        <a className={styles.item}>🦇 Terror</a>
+        <a className={styles.item}>🔎 Mistério</a>
+        <a className={styles.item}>😱 Suspense</a>
+        <a className={styles.item}>🎭 Drama</a>
+        <a className={styles.item}>💚 Romance</a>
+        <a className={styles.item}>🇧🇷 Nacional</a>
       </nav>
 
       <div className={styles.footer}>
