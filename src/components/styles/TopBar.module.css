@@ -1,0 +1,19 @@
+.topbar {
+  padding: 10px 16px;
+  border-bottom: 0.5px solid #2a2a2a;
+}
+
+.search {
+  width: 100%;
+  padding: 8px 14px;
+  border: 0.5px solid #2a2a2a;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: #888;
+}
+
+.search:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #131313;
+}
