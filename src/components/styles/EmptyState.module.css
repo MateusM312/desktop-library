@@ -1,0 +1,17 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.empty h2 {
+  color: white;
+}
+
+.icon {
+  font-size: 52px;
+}
